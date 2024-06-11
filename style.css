@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.opacity1 {
+    opacity: 1;
+}
+
+.opacity0 {
+    opacity: 0.5;
+}
+
+.cursornot {
+    cursor: not-allowed;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cursorauto {
+    cursor: auto;
+}
+
+.main_wrapper {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.main_head {
+    /* animation: textOpacity 5s 0.3s 1 ease; */
+}
+
+.con_wrapper {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.container {
+    border: 1px solid black;
+    width: 28%;
+    height: 50vh;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 20%;
+    box-sizing: border-box;
+}
+
+.container:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.animate {
+    color: red;
+    /* animation: textOpacity 3s 1s infinite ease; */
+}
+
+.btn {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btn_1 {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input_1 {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input_1:focus {
+    outline: none;
+}
+
+.cow {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.footer_wrapper {
+    bottom: 0;
+    width: 99%;
+    padding: 20px 5px;
+}
+
+.warning {
+    color: red;
+    display: none;
+    animation: textOpacity 1s 0.3s infinite ease;
+}
+
+@keyframes textOpacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 576px){
+    .con_wrapper {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+}

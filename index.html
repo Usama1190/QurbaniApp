@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_wrapper">
+        <h1 class="main_head">Eid-ul-Azha</h1>
+        <p class="animate">event for muslim community</p>
+        <h2>Qurbani 2024 <img src="cow1.jpeg" alt="cow" class="img_1"></h2>
+        <input type="text" placeholder="Cow / Goat / Camel" id="enter" class="input_1">
+        <button type="button" class="btn_1 cursor" id="enterBtn">Enter</button>
+        <small id="warning" class="warning">input field is not valid</small>
+
+        <div class="con_wrapper">
+            <div class="container opacity0 cursornot" id="cow">
+                <h3>Calculate share of Cow</h3>
+                <input type="number" value="" class="input cursornot" id="cowInput" disabled placeholder="Enter price">
+                <button type="button" class="btn cursornot" id="cowBtn">Calculate</button>
+
+                <p id="show">Showing result...</p>
+
+                <img src="cow1.jpeg" class="cow" alt="">
+            </div>
+
+            <div class="container opacity0 cursornot" id="goat"> 
+                <h3>Calculate share of Goat</h3>
+                <input type="number" value="" class="input cursornot" id="goatInput" disabled placeholder="Enter price">
+                <button type="button" class="btn cursornot" id="goatBtn">Calculate</button>
+
+                <p id="show">Showing result...</p>
+                <img src="goat1.jpeg" class="cow" alt="">
+            </div>
+
+            <div class="container opacity0 cursornot" id="camel">
+                <h3>Calculate share of Camel</h3>
+                <input type="number" value="" class="input cursornot" id="camelInput" disabled placeholder="Enter price">
+                <button type="button" class="btn cursornot" id="camelBtn">Calculate</button>
+
+                <p id="show">Showing result...</p>
+                <img src="camel1.jpeg" class="cow" alt="">
+            </div>
+        </div>
+
+        <div class="footer_wrapper">Developed By <a href="#">Usama Israr Khan</a></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
